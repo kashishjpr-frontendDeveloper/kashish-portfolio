@@ -650,11 +650,7 @@ textarea {
     .hero-text p {
         margin: 0 auto 30px auto;
     }
-
-    .hero-image {
-        display: none;
-    }
-
+    
     /* Hide image on tablet for cleaner look */
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
