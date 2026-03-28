@@ -41,7 +41,8 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
-    padding: 20px 0;
+    padding: 10px 0;
+    background-color: #c5aa6a;
     transition: background 0.3s ease, padding 0.3s ease;
 }
 
@@ -123,7 +124,11 @@ body {
     position: relative;
     overflow: hidden;
     padding-top: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 140px;
+}
+
+ul.nav-links li a{
+    color:black
 }
 
 .hero-bg-animation {
@@ -141,6 +146,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
+    padding-top: 40px;
 }
 
 .hero-text .greeting {
@@ -178,6 +184,31 @@ body {
     display: flex;
     gap: 20px;
 }
+
+@media only screen and (max-width:767px){
+    .hero-buttons{
+        justify-content:center;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .hero-buttons{
+        justify-content:center;
+    }
+    .hero-section{
+        padding-bottom: 70px ;
+    }
+    .about-section{
+        padding: 10px 0 !important;
+    }
+    .services-section{
+        margin-top:40px;
+    }
+   
+}
+ .testimonial-slider{
+        margin-top: 90px;
+    }
 
 .btn {
     padding: 12px 30px;
@@ -332,6 +363,7 @@ body {
 .services-section {
     background: var(--bg-primary);
     padding-bottom: 70px;
+    margin-bottom: 70px;
 }
 
 .services-grid {
@@ -380,7 +412,7 @@ body {
 
 /* --- Work Section --- */
 .work-section {
-    padding: 100px 0;
+    padding: 0px 0 100px 0;
     background: var(--bg-secondary);
 }
 
@@ -506,7 +538,7 @@ body {
 
 /* --- Testimonials --- */
 .testimonials-section {
-    padding: 100px 0;
+    padding: 0px 0 100px 0;
     background: var(--bg-primary);
 }
 
@@ -543,7 +575,7 @@ body {
 
 /* --- Contact --- */
 .contact-section {
-    padding: 100px 0;
+    padding:  0  0  100px 0;
     background: var(--bg-secondary);
 }
 
