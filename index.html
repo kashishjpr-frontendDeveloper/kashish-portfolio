@@ -4,315 +4,465 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend Developer | Magento & PWA Expert</title>
-    <link rel="stylesheet" href="./tailwind.css.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Portfolio | UI/UX Designer</title>
+    <link rel="stylesheet" href="../portfolio/tailwind.css.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-
     <!-- Navigation -->
-    <nav id="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">Kashish<span class="accent"> </span>Portfolio</a>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+    <nav>
+        <a href="#" class="logo">Kashish Sharma</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="hero-bg-animation"></div>
-        <div class="container hero-content">
-            <div class="hero-text">
-                <span class="greeting">HELLO, I'M</span>
-                <h1>Kashish <span class="highlight">Sharma</span></h1>
-                <h2 class="dynamic-title">Frontend Developer</h2>
-                <p>I craft high-performance e-commerce experiences using Magento 2, PWA Studio, and Modern Frontend
-                    Technologies.</p>
-                <div class="hero-buttons">
-                    <a href="#work" class="btn btn-primary">View Projects</a>
-                    <a href="#contact" class="btn btn-outline">Let's Talk</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="image-frame">
-                    <!-- Replace src with your actual image -->
-                    <img src="https://res.cloudinary.com/duhhg3yhn/image/upload/v1774675113/mypic_ylxiiv.jpg" alt="Profile">
-                </div>
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-label">UI/UX Designer</span>
+            <h1>Crafting Digital<br>Experiences with <span>Purpose</span></h1>
+            <p>I design intuitive interfaces that bridge the gap between brands and users. Currently focused on
+                e-commerce solutions and progressive web applications.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
             </div>
         </div>
-    </section>
 
-    <!-- Stats Section (New) -->
-    <section id="stats" class="stats-section">
-        <div class="container stats-grid">
-            <div class="stat-item">
-                <i class="fas fa-briefcase"></i>
-                <h3 class="counter" data-target="50">5</h3>
-                <p>Live Projects</p>
+        <div class="floating-elements">
+            <div class="float-card">
+                <div class="icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01">
+                        </path>
+                    </svg>
+                </div>
+                <h4>UI Design</h4>
+                <p>Pixel-perfect interfaces</p>
             </div>
-            <div class="stat-item">
-                <i class="fas fa-magento"></i>
-                <h3 class="counter" data-target="30">100</h3>
-                <p>Magento Pagebuilder Pages</p>
+            <div class="float-card">
+                <div class="icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                        </path>
+                    </svg>
+                </div>
+                <h4>Responsive</h4>
+                <p>All device optimized</p>
             </div>
-            <div class="stat-item">
-                <i class="fas fa-mobile-alt"></i>
-                <h3 class="counter" data-target="15">2</h3>
-                <p>PWA Works </p>
-            </div>
-            <div class="stat-item">
-                <i class="fas fa-coffee"></i>
-                <h3 class="counter" data-target="1000">2</h3>
-                <p>FreeLensing Websites</p>
+            <div class="float-card">
+                <div class="icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                </div>
+                <h4>PWA Expert</h4>
+                <p>Modern web apps</p>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container about-grid">
-            <div class="about-content reveal">
-                <h2 class="section-title">About <span class="highlight">Me</span></h2>
-                <p class="lead">I'm a passionate Frontend Developer specializing in the e-commerce ecosystem.</p>
-                <p>With over 8 Months of experience, I focus on building scalable, accessible, and visually stunning
-                    online stores. My expertise lies in bridging the gap between complex Magento backend logic and
-                    smooth, app-like frontend experiences using PWA and Headless architecture.</p>
-                <div class="skills-bars">
-                    <div class="skill">
-                        <span>Magento 2 Theming</span>
-                        <div class="bar">
-                            <div class="progress" style="width: 95%;"></div>
-                        </div>
+    <section id="about" class="about">
+        <div class="about-grid">
+            <div class="about-image">
+                <div class="about-image-wrapper">
+                    <img src="https://picsum.photos/seed/designer-portrait/600/500" alt="Profile">
+                </div>
+                <div class="experience-badge">
+                    <div class="number">8+</div>
+                    <div class="text">Months Experience</div>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="section-label">About Me</span>
+                <h2>Passionate about creating meaningful digital experiences</h2>
+                <p>I'm a UI/UX designer with hands-on experience in designing e-commerce platforms for renowned fashion
+                    brands. My work focuses on creating seamless user experiences that drive engagement and conversions.
+                </p>
+                <p>Having worked with major brands like Lacoste, Mufti, Crocs, and Cochin, I've developed expertise in
+                    PWA development and Magento2 integration, delivering solutions that balance aesthetic appeal with
+                    functional excellence.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Projects Completed</p>
                     </div>
-                    <div class="skill">
-                        <span>PWA / Headless</span>
-                        <div class="bar">
-                            <div class="progress" style="width: 88%;"></div>
-                        </div>
+                    <div class="stat-item">
+                        <h3>4</h3>
+                        <p>Major Brands</p>
                     </div>
-                    <div class="skill">
-                        <span>Tailwind / Less CSS</span>
-                        <div class="bar">
-                            <div class="progress" style="width: 92%;"></div>
-                        </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Client Satisfaction</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services/Process Section (New) -->
-    <section id="services" class="services-section">
-        <div class="container">
-            <h2 class="section-title text-center reveal">What I <span class="highlight">Do</span></h2>
-            <div class="services-grid">
-                <div class="service-card reveal">
-                    <div class="icon-box">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="-23.5 0 303 303"
-                            preserveAspectRatio="xMidYMid">
-                            <path
-                                d="M144.852 90.67v172.192l-16.933 10.349-16.946-10.404V90.803l-43.878 27.016v147.255l60.824 37.217 61.339-37.482V117.725L144.852 90.67zM127.919 0L0 77.502v147.274l33.223 19.572V97.06l94.722-57.596 94.81 57.512.391.223-.042 146.929L256 224.776V77.502L127.919 0z"
-                                fill="#EC6737" />
-                        </svg> <i class="fab fa-magento"></i>
-                    </div>
-                    <h3>Magento Development</h3>
-                    <p>Custom theme development, module integration, and performance optimization for Magento 2 stores.
-                    </p>
-                </div>
-                <div class="service-card reveal">
-                    <div class="icon-box">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="800px" height="800px"
-                            viewBox="0 0 512 512">
-                            <title>ionicons-v5_logos</title>
-                            <path
-                                d="M330.7,352l77.72-192H356.9L303.74,284.07,265.93,160H226.32L185.74,284.07l-28.63-56.53L131.21,307l26.3,45h50.7l36.68-111.27,35,111.27Z" />
-                            <path
-                                d="M48.79,286.09H80.44a93.39,93.39,0,0,0,25.62-3.21l8.18-25.19,22.88-70.39a55.75,55.75,0,0,0-6-7.82Q113.54,160,79.59,160H0V352H48.79Zm41.9-81.92q6.89,6.92,6.88,18.52t-6,18.53q-6.64,7.62-24.44,7.61H48.79V197.25H67.21q16.59,0,23.48,6.92ZM376.85,317.61l14.79-37.25h42.69l-20.26-56.51L439.41,160,512,352H458.47l-12.4-34.39Z" />
-                        </svg><i class="fas fa-cubes"></i>
-                    </div>
-                    <h3>PWA Implementation</h3>
-                    <p>Transforming standard sites into Progressive Web Apps for offline support and mobile-first
-                        experiences.</p>
-                </div>
-                <div class="service-card reveal">
-                    <div class="icon-box">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 2050 2050"
-                            data-name="Layer 3" id="Layer_3">
-                            <defs>
-                                <style>
-                                    .cls-1 {
-                                        fill: #4d4d4d;
-                                    }
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <span class="section-label">Expertise</span>
+            <h2 class="section-title">Skills & Tools</h2>
+            <p class="section-desc">Technologies and methodologies I use to bring designs to life</p>
+        </div>
 
-                                    .cls-2 {
-                                        fill: #ffffff;
-                                    }
-                                </style>
-                            </defs>
-                            <title />
-                            <path class="cls-1"
-                                d="M1658.7,723.4v-53a171.2,171.2,0,0,0-171.2-171.2h-925A171.2,171.2,0,0,0,391.3,670.4v53a20.1,20.1,0,0,0,20.1,20.1H1638.6A20.1,20.1,0,0,0,1658.7,723.4Z" />
-                            <path class="cls-1"
-                                d="M391.3,853.6v526a171.2,171.2,0,0,0,171.2,171.2h925a171.2,171.2,0,0,0,171.2-171.2v-526a20.1,20.1,0,0,0-20.1-20.1H411.4A20.1,20.1,0,0,0,391.3,853.6Z" />
-                            <circle class="cls-2" cx="559.2" cy="624.1" r="38.7" />
-                            <circle class="cls-2" cx="678.5" cy="624.1" r="38.7" />
-                            <circle class="cls-2" cx="797.8" cy="624.1" r="38.7" />
-                        </svg><i class="fas fa-paint-brush"></i>
-                    </div>
-                    <h3>UI/UX & Tailwind</h3>
-                    <p>Building responsive, pixel-perfect interfaces using Tailwind CSS and modern design systems.</p>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z">
+                        </path>
+                    </svg>
                 </div>
+                <h4>UI Design</h4>
+                <p>Figma, Sketch</p>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122">
+                        </path>
+                    </svg>
+                </div>
+                <h4>UX Research</h4>
+                <p>User Testing, Analytics</p>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                    </svg>
+                </div>
+                <h4>PWA</h4>
+                <p>Progressive Web Apps</p>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                    </svg>
+                </div>
+                <h4>Magento2</h4>
+                <p>E-commerce Solutions</p>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z">
+                        </path>
+                    </svg>
+                </div>
+                <h4>Prototyping</h4>
+                <p>Interactive Mockups</p>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
+                        </path>
+                    </svg>
+                </div>
+                <h4>Responsive Design</h4>
+                <p>Mobile-First Approach</p>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                        </path>
+                    </svg>
+                </div>
+                <h4>Analytics</h4>
+                <p>Data-Driven Decisions</p>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+                        </path>
+                    </svg>
+                </div>
+                <h4>Collaboration</h4>
+                <p>Team & Stakeholder</p>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="work" class="work-section">
-        <div class="container">
-            <h2 class="section-title text-center reveal">Featured <span class="highlight">Projects</span></h2>
-            <div class="portfolio-grid">
-                <!-- Project 1 -->
-                <div class="portfolio-item reveal">
-                    <div class="portfolio-image">
-                        <video autoplay muted loop playsinline>
-                            <source src="https://res.cloudinary.com/duhhg3yhn/video/upload/v1774675198/imagesportfolio/locoste_qwrtwr.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="portfolio-overlay">
-                        <h3>Lacoste</h3>
-                        <p>Magento 2 </p>
-                        <div class="tech-stack">
-                            <span>Magento</span>
-                            <span>GraphQL</span>
-                            <span>React</span>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="#"><i class="fab fa-github"></i></a>
-                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project 2 -->
-                <div class="portfolio-item reveal">
-                    <div class="portfolio-image">
-                        <div class="portfolio-image">
-                            <video autoplay muted loop playsinline controls>
-                                <source
-                                    src="https://res.cloudinary.com/duhhg3yhn/video/upload/v1774675195/imagesportfolio/crocs_u7d34k.mp4"
-                                    type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                    <div class="portfolio-overlay-2">
-                        <h3>Crocs</h3>
-                        <p>Custom Less/CSS Theme & Backend Integration</p>
-                        <div class="tech-stack">
-                            <span>Less</span>
-                            <span>jQuery</span>
-                            <span>Magento pagebuilder</span>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="#"><i class="fab fa-github"></i></a>
-                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project 3 -->
-                <div class="portfolio-item reveal">
-                    <div class="portfolio-image">
-                        <video autoplay muted loop playsinline>
-                            <source src="https://res.cloudinary.com/duhhg3yhn/video/upload/v1774675201/imagesportfolio/mufti_i6gcgc.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="portfolio-overlay-3">
-                        <h3>Mufti-Jeans</h3>
-                        <p>Frontend built with Tailwind CSS & API integration</p>
-                        <div class="tech-stack">
-                            <span>Tailwind</span>
-                            <span>JS</span>
-                            <span>Magento pagebuilder</span>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="#"><i class="fab fa-github"></i></a>
-                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!---->
-                <div class="portfolio-item reveal">
-                    <div class="portfolio-image">
-                        <video autoplay muted loop playsinline>
-                            <source src="https://res.cloudinary.com/duhhg3yhn/video/upload/v1774675205/imagesportfolio/screenrecord-pg_f22ugj.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="portfolio-overlay-2">
-                        <h3>Golden prime pg</h3>
-                        <p>Hostel and Pg</p>
-                        <div class="tech-stack">
-                            <span>Css</span>
-                            <span>javascript</span>
-                            <span>HTML</span>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="#"><i class="fab fa-github"></i></a>
-                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-desc">A selection of work I've done for renowned fashion and lifestyle brands</p>
+        </div>
 
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="https://res.cloudinary.com/duhhg3yhn/image/upload/q_auto/f_auto/v1775753683/lacoste_kfwtwm.jpg" alt="Lacoste Project">
+                    <div class="project-overlay">
+                        <div class="project-tags">
+                            <span class="project-tag">E-commerce</span>
+                            <span class="project-tag">PWA</span>
+                            <span class="project-tag">Fashion</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-brand">Lacoste</span>
+                    <h3>E-commerce Platform Redesign</h3>
+                    <p>Complete UI overhaul for the French fashion brand's online store, focusing on mobile experience
+                        and conversion optimization.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">PWA</span>
+                        <span class="tech-badge">Magento2</span>
+                        <span class="tech-badge">Figma</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="https://res.cloudinary.com/duhhg3yhn/image/upload/q_auto/f_auto/v1775753702/crocs_amo7ln.webp" alt="Crocs Project">
+                    <div class="project-overlay">
+                        <div class="project-tags">
+                            <span class="project-tag">Retail</span>
+                            <span class="project-tag">Mobile App</span>
+                            <span class="project-tag">Lifestyle</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-brand">Crocs</span>
+                    <h3>Mobile Shopping Experience</h3>
+                    <p>Designed an intuitive PWA for Crocs, enhancing the product discovery journey and streamlining the
+                        checkout process.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">PWA</span>
+                        <span class="tech-badge">Magento2</span>
+                        <span class="tech-badge">UX Research</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="https://res.cloudinary.com/duhhg3yhn/image/upload/q_auto/f_auto/v1775753715/muftijeans_logo_figlx1.jpg" alt="Mufti Project">
+                    <div class="project-overlay">
+                        <div class="project-tags">
+                            <span class="project-tag">Fashion</span>
+                            <span class="project-tag">Indian Brand</span>
+                            <span class="project-tag">E-commerce</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-brand">Mufti</span>
+                    <h3>Brand Store Experience</h3>
+                    <p>Crafted a premium shopping experience for India's leading casual wear brand with focus on brand
+                        storytelling.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Magento2</span>
+                        <span class="tech-badge">PWA</span>
+                        <span class="tech-badge">UI Design</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="https://res.cloudinary.com/duhhg3yhn/image/upload/q_auto/f_auto/v1775754148/cochin-2_fibjdr.png" alt="Cochin Project">
+                    <div class="project-overlay">
+                        <div class="project-tags">
+                            <span class="project-tag">Travel</span>
+                            <span class="project-tag">Tourism</span>
+                            <span class="project-tag">Destination</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-brand">Cochin</span>
+                    <h3>Tourism Platform Design</h3>
+                    <p>Developed a comprehensive tourism platform showcasing the beauty of Cochin with immersive visual
+                        storytelling.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">PWA</span>
+                        <span class="tech-badge">Interactive Maps</span>
+                        <span class="tech-badge">UX Design</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section (New) -->
-    <section id="testimonials" class="testimonials-section">
-        <div class="container">
-            <h2 class="section-title text-center reveal">Client <span class="highlight">Reviews</span></h2>
-            <div class="testimonial-slider">
-                <div class="testimonial-card active">
-                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                    <p>"Alex transformed our slow Magento site into a blazing fast PWA. Sales increased by 40% in 3
-                        months. Incredible work!"</p>
-                    <div class="client-info">
-                        <h4>Sarah Johnson</h4>
-                        <span>CEO, TechWear</span>
-                    </div>
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+        <div class="testimonial-wrapper">
+            <svg class="quote-icon" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z">
+                </path>
+            </svg>
+            <p class="testimonial-text">"A remarkably talented designer who understands the balance between aesthetics
+                and functionality. The work delivered exceeded our expectations and significantly improved our
+                conversion rates."</p>
+            <div class="testimonial-author">
+                <div class="author-avatar">JD</div>
+                <div class="author-info">
+                    <h4>John Davis</h4>
+                    <p>Product Manager, E-commerce Division</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2 class="section-title text-center reveal">Get In <span class="highlight">Touch</span></h2>
-            <p class="contact-subtext reveal">Have a project in mind? Let's build something amazing together.</p>
-            <form class="contact-form reveal">
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <span class="section-label">Get In Touch</span>
+            <h2 class="section-title">Let's Work Together</h2>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Ready to start your next project?</h3>
+                <p>I'm currently open to new opportunities and would love to connect with you. Whether you have a
+                    question or just want to say hi, feel free to reach out!</p>
+
+            </div>
+
+            <form class="contact-form">
                 <div class="form-group">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
+                    <h3>Kashishjpr9092@gmail.com</h3>
                 </div>
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                <div class="form-group">
+                    <h3>8474947684 , 7464844237</h3>
+                </div>
+
             </form>
         </div>
     </section>
-    <script src="script.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/kashish-sharma-33bb3a283?" aria-label="LinkedIn"   >
+
+                    <svg fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z">
+                        </path>
+                    </svg>
+                </a>
+
+                <a href="8474947684" aria-label="Whatapp" class="for-hover-effect">
+                    <div class="for-ph-no">8474947684</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="#25D366">
+                        <path
+                            d="M16 .4C7.4.4.4 7.4.4 16c0 2.8.7 5.5 2.1 7.9L0 32l8.3-2.2c2.3 1.3 4.9 2 7.7 2h.1c8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.7c-2.4 0-4.8-.6-6.8-1.8l-.5-.3-4.9 1.3 1.3-4.8-.3-.5c-1.3-2.1-2-4.5-2-7 0-7.3 6-13.3 13.3-13.3s13.3 6 13.3 13.3-6 13.3-13.3 13.3zm7.3-9.9c-.4-.2-2.3-1.1-2.7-1.2-.4-.2-.6-.2-.9.2-.3.4-1 1.2-1.2 1.4-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.2-2.1-2.6-.2-.4 0-.6.2-.8.2-.2.4-.4.6-.7.2-.3.3-.4.4-.7.1-.2.1-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.7-.6-.6-.9-.6h-.8c-.3 0-.7.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.8c.2.3 2.6 4 6.4 5.6.9.4 1.6.6 2.2.8.9.3 1.7.3 2.3.2.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.7.2-1.8-.1-.1-.3-.2-.7-.4z" />
+                    </svg>
+                </a>
+                <a href="#" aria-label="Email"  class="for-hover-effect">
+                    <div class="for-ph-no">kashishjpr9092@gmail.com</div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="40" height="40">
+                        <path fill="#EA4335" d="M4 10l20 15L44 10v28H4z" />
+                        <path fill="#FBBC05" d="M4 10l20 15v13H4z" />
+                        <path fill="#34A853" d="M44 10L24 25v13h20z" />
+                        <path fill="#4285F4" d="M4 10h40v4L24 28 4 14z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navigation scroll effect
+        const nav = document.querySelector('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Reveal animations on scroll
+        const revealElements = document.querySelectorAll('.reveal');
+
+        const revealOnScroll = () => {
+            revealElements.forEach(el => {
+                const elementTop = el.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (elementTop < windowHeight - 100) {
+                    el.classList.add('active');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', revealOnScroll);
+        window.addEventListener('load', revealOnScroll);
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handling
+        const form = document.querySelector('.contact-form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const btn = form.querySelector('.btn-submit');
+            const originalText = btn.textContent;
+
+            btn.textContent = 'Sending...';
+            btn.style.opacity = '0.7';
+
+            setTimeout(() => {
+                btn.textContent = 'Message Sent!';
+                btn.style.background = '#5a9a6e';
+
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '';
+                    btn.style.opacity = '';
+                    form.reset();
+                }, 2000);
+            }, 1500);
+        });
+    </script>
 </body>
 
 </html>
