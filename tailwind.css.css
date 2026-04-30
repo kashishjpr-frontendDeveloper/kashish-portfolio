@@ -786,6 +786,11 @@ footer {
     color: orangered;
 }
 
+.project-card.reveal a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
     .floating-elements {
@@ -879,3 +884,4 @@ footer {
         margin-bottom: 25px;
     }
 }
+
